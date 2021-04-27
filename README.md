@@ -1,5 +1,5 @@
 # PEN-Site
-========
+--------
 
 Repositoty du site faisant office de rendu pour le projet numérique de première.
 Pour pouvoir visualiser le site, il faut télécharger le "projet". Pour cela, vous devez appuyer sur le bouton vert "Code" puis "Download ZIP".
