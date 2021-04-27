@@ -2,7 +2,7 @@ var bodyElement;
 
 function init() {
     bodyElement = document.getElementsByTagName("body")[0];
-    var imgs = document.getElementsByClassName("section-img");
+    var imgs = document.getElementsByClassName("can-fs");
     for (var index = 0; index < imgs.length; index++){
         img = imgs[index];
         img.addEventListener("click", clickImage);
