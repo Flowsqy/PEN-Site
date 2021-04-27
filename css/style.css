@@ -130,8 +130,9 @@ body
     padding: 10px;
 }
 
-.section-intro
+.section-block
 {
+    margin: 30px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -147,6 +148,7 @@ body
 .section-img
 {
     width: 30%;
+    margin: 30px;
     align-self: flex-start;
     border-radius: 2%;
     box-shadow: 2px 2px 10px black;
