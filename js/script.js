@@ -7,6 +7,9 @@ function init() {
         img = imgs[index];
         img.addEventListener("click", clickImage);
     }
+    codeBtn = document.getElementById("code-button");
+    codeBtn.addEventListener("click", toggleCodeContent);
+    toggleCodeContent();
 }
 window.addEventListener("load", init);
 
@@ -40,11 +43,23 @@ function clickImage(){
 }
 
 function clickCross(){
+    // Show page content
     var childs = bodyElement.children;
     for(var index = 0; index < 3; index++){
         var child = childs[index];
         child.removeAttribute("style")
     }
+    // Remove sized image and cross
     bodyElement.removeChild(childs[3]);
     bodyElement.removeChild(childs[3]);
+}
+
+function toggleCodeContent(){
+    content = document.getElementById("code-content");
+    if(content.hasAttribute("style")){
+        content.removeAttribute("style");
+    }
+    else{
+        content.style.display = "none";
+    }
 }

@@ -224,3 +224,32 @@ body
     color: white;
     font-size: 35px;
 }
+
+/*
+ * Code part
+ */
+ #code-button
+ {
+     width: 70px;
+     height: 40px;
+     border-radius: 5%;
+     box-shadow: 3px 3px 5px black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+ }
+
+ #code-button:hover
+ {
+     background-color: rgb(221, 221, 221);
+ }
+
+ #code-content
+ {
+    width: 90%;
+    border-radius: 2%;
+    background-color: rgb(226, 226, 226);
+    box-shadow: inset 2px 2px 2px black;
+    padding: 5px;
+ }
